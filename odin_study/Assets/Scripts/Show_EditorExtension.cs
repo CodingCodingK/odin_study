@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(Show))]
+[CustomEditor(typeof(Show))]//当挂Show脚本时就会显示这个编辑器，用来让编辑器和脚本互通
 public class Show_EditorExtension : Editor
 {
     public override void OnInspectorGUI()
@@ -17,4 +17,5 @@ public class Show_EditorExtension : Editor
             Debug.Log("点击了按钮");
         }
     }
+    
 }

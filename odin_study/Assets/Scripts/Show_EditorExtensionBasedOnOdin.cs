@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Show_EditorExtensionBasedOnOdin : SerializedMonoBehaviour
 {
+    [BoxGroup("int组")]
+    public int[] Test;
+    
     [PreviewField]
     [LabelText("这是一个精灵")] 
     public Sprite m_OriginSprite;
