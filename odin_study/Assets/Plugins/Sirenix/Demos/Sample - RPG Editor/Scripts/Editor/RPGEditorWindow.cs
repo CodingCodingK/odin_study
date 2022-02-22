@@ -27,12 +27,15 @@ namespace Sirenix.OdinInspector.Demos.RPGEditor
         [MenuItem("Tools/Odin Inspector/Demos/RPG Editor")]
         private static void Open()
         {
+            Debug.Log("RPGEditorWindow Open");
             var window = GetWindow<RPGEditorWindow>();
             window.position = GUIHelper.GetEditorWindowRect().AlignCenter(800, 500);
         }
 
         protected override OdinMenuTree BuildMenuTree()
         {
+            Debug.Log("RPGEditorWindow BuildMenuTree");
+            
             var tree = new OdinMenuTree(true);
             tree.DefaultMenuStyle.IconSize = 28.00f;
             tree.Config.DrawSearchToolbar = true;

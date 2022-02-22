@@ -12,7 +12,7 @@ public class MySimpleEditorWnd : OdinEditorWindow
         GetWindow<MySimpleEditorWnd>().Show();
     }
 
-    public string Hello = "菜鸟海澜";
+    public string Hello = "Hello World";
     
     
     [EnumToggleButtons, BoxGroup("Settings")]
