@@ -29,7 +29,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -39,7 +39,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -52,9 +52,13 @@
   <ItemGroup>
      <Compile Include="Assets\Plugins\Sirenix\Demos\Sample - RPG Editor\Scripts\Items\WeaponItem.cs" />
      <Compile Include="Assets\Plugins\Sirenix\Demos\Sample - RPG Editor\Scripts\Items\EquipableItem.cs" />
+     <Compile Include="Assets\Plugins\LubanLib\BeanBase.cs" />
      <Compile Include="Assets\Plugins\Sirenix\Demos\Sample - RPG Editor\Scripts\Character\CharacterAlignment.cs" />
      <Compile Include="Assets\Plugins\Sirenix\Demos\Sample - RPG Editor\Scripts\Character\CharacterEquipment.cs" />
+     <Compile Include="Assets\Plugins\LubanLib\ByteBuf.cs" />
      <Compile Include="Assets\Plugins\Sirenix\Demos\Sample - RPG Editor\Scripts\Items\Item.cs" />
+     <Compile Include="Assets\Plugins\LubanLib\ITypeId.cs" />
+     <Compile Include="Assets\Plugins\LubanLib\StringUtil.cs" />
      <Compile Include="Assets\Plugins\Sirenix\Demos\Sample - RPG Editor\Scripts\Misc\StatType.cs" />
      <Compile Include="Assets\Plugins\Sirenix\Demos\Sample - RPG Editor\Scripts\Items\ConsumableItem.cs" />
      <Compile Include="Assets\Plugins\Sirenix\Demos\Sample - RPG Editor\Scripts\Character\CharacterOverview.cs" />
@@ -65,6 +69,7 @@
      <Compile Include="Assets\Plugins\Sirenix\Demos\Sample - RPG Editor\Scripts\Misc\StatList.cs" />
      <Compile Include="Assets\Plugins\Sirenix\Demos\Sample - RPG Editor\Scripts\Character\Character.cs" />
      <Compile Include="Assets\Plugins\Sirenix\Demos\Sample - RPG Editor\Scripts\Items\ItemTypes.cs" />
+     <Compile Include="Assets\Plugins\LubanLib\ByteBufExtensions.cs" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.xml" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
      <None Include="Assets\Plugins\Sirenix\Readme.txt" />
@@ -74,31 +79,31 @@
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.xml" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -290,22 +295,22 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.OdinInspector.Attributes">
- <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.OdinInspector.Editor">
- <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Serialization.Config">
- <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Serialization">
- <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Utilities">
- <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Utilities.Editor">
- <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
-    SerializedBytes: 
+    SerializedBytes: []
     ReferencedUnityObjects:
     - {fileID: 11400000, guid: c3191bc4db2097f489c2fea5510b960b, type: 2}
     - {fileID: 11400000, guid: 3915d4dc6b1333c44b6b7cc22cf48c05, type: 2}
@@ -109,7 +109,7 @@ MonoBehaviour:
       Data: Sirenix.OdinInspector.Demos.RPGEditor.ItemSlot, Assembly-CSharp-firstpass
     - Name: ItemCount
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: Item
       Entry: 10
       Data: 1
@@ -903,7 +903,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   Icon: {fileID: 2800000, guid: 3af7666693284e04eacc2fcd7c0f6c43, type: 3}
-  Name: Baldr
+  Name: qweqe
   Surname: 
   Age: 33
   CharacterAlignment: 0
@@ -911,7 +911,7 @@ MonoBehaviour:
     Stats:
       stats:
       - Type: 0
-        Value: 47.058823
+        Value: 71.18644
       - Type: 1
         Value: 40.356865
       - Type: 2
@@ -922,8 +922,4 @@ MonoBehaviour:
         Value: 10.204426
       - Type: 7
         Value: 4.685077
-  StartingEquipment:
-    MainHand: {fileID: 0}
-    Offhand: {fileID: 0}
-    Head: {fileID: 11400000, guid: c3191bc4db2097f489c2fea5510b960b, type: 2}
-    Body: {fileID: 0}
+  StartingEquipment: {MainHand: {fileID: 0}, Offhand: {fileID: 0}, Head: {fileID: 11400000, guid: c3191bc4db2097f489c2fea5510b960b, type: 2}, Body: {fileID: 0}}
