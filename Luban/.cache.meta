@@ -1,21 +1,22 @@
-﻿E:/My Github/odin_study/Luban/Cfg_Code/Datas/TbSkillCfg.cs,5DA1D1A6DD7E2FFA9613CFCCBBD19,1722,1645613913795
-E:/My Github/odin_study/Luban/Cfg_Code/SkillCfg.cs,55BB47BF90E577346E1D9662C8E73519,1808,1645613913795
-E:/My Github/odin_study/Luban/Cfg_Code/Tables.cs,FCA78A46F1951F325AE7B7203A33683,1044,1645614471163
-E:/My Github/odin_study/Luban/Cfg_Code/test/skillCfgData.cs,80A52679E052DA255792CA38EACBB,1837,1645613913823
-E:/My Github/odin_study/Luban/Cfg_Code/test/TbskillCfgData.cs,21F2DC7D3DB3C73E64368C1766DD2E2,1832,1645613913795
-E:/My Github/odin_study/Luban/Cfg_Data/datas_tbskillcfg.bytes,7B6BA44D70785353874D1AC4D905A1,39,1645614372174
-E:/My Github/odin_study/Luban/Cfg_Data/test_tbskillcfgdata.bytes,7B6BA44D70785353874D1AC4D905A1,39,1645614372175
-E:/My Github/odin_study/Luban/Editor_JsonCode/SkillCfg.cs,3B3774ED49FC7D9DCF4FE255A3095E,3048,1645612776992
-E:/My Github/odin_study/Luban/Excel2JsonTemplate/Datas/__beans__.xlsx,6224B28D2BECF7F65A4132E94E5CCD5,9589,1645612771845
-E:/My Github/odin_study/Luban/Excel2JsonTemplate/Datas/__enums__.xlsx,C8D1D8FF90CEB499E116641E7E68E670,9313,1645580959507
-E:/My Github/odin_study/Luban/Excel2JsonTemplate/Datas/__tables__.xlsx,D51ACE259A71DBD68875888784C46FB8,9506,1645612331489
-E:/My Github/odin_study/Luban/Json2BinTemplate/Datas/__beans__.xlsx,82D2CD983D8A9C9DE282E699B94877,9611,1645613719492
-E:/My Github/odin_study/Luban/Json2BinTemplate/Datas/__enums__.xlsx,C8D1D8FF90CEB499E116641E7E68E670,9313,1645580959507
-E:/My Github/odin_study/Luban/Json2BinTemplate/Datas/__tables__.xlsx,DD9BE8F453E794B729DE7CD895653,9527,1645613885530
-E:/My Github/odin_study/Luban/Json2BinTemplate/Datas/datas/1.json,3D74D4BB967575359B34DAC896092E5,63,1645613349576
-E:/My Github/odin_study/Luban/Json2BinTemplate/Datas/datas/2.json,CA4DFBC61936503DA92F7ABE10688188,60,1645613535690
-E:/My Github/odin_study/Luban/Json2BinTemplate/Datas/datas/3.json,D3227888D2C0DEBC36378A29966B1364,60,1645613544131
-E:/My Github/Server/Datas/ResCfg/datas_tbskillcfgdata.bytes,EE1093424C7A7DBBDA78956E63411B9,85,1645600049891
-E:/My Github/Server/Server/99.Models/Gen_Cfg/Datas/skillCfgData.cs,292B41DD6AF756525D310DA7525F09B,1838,1645600049893
-E:/My Github/Server/Server/99.Models/Gen_Cfg/Datas/TbskillCfgData.cs,1D681F1FE3F3FBFFD07544E118BB4F7,1844,1645600049892
-E:/My Github/Server/Server/99.Models/Gen_Cfg/Tables.cs,8DEF0A09B9E813F7F1558965EE6C11,1080,1645600049891
+﻿D:/github/odin_study/Luban/Cfg_Code/BuffCfg.cs,5753C8CD5863273B1BCA5394B8D7FB77,1442,1645622790946
+D:/github/odin_study/Luban/Cfg_Code/Datas/TbBuffCfg.cs,49112628B5F4C2BD7A6A696D7A665014,1708,1645622790946
+D:/github/odin_study/Luban/Cfg_Code/Datas/TbSkillCfg.cs,5DA1D1A6DD7E2FFA9613CFCCBBD19,1722,1645622119923
+D:/github/odin_study/Luban/Cfg_Code/SkillCfg.cs,D3CC7DC7FE2411F07FD417181004CF,2129,1645622790947
+D:/github/odin_study/Luban/Cfg_Code/Tables.cs,44695943D7A7FDC3137DCB8E15AF,1290,1645622119917
+D:/github/odin_study/Luban/Cfg_Data/datas_tbbuffcfg.bytes,4CDFBCE2E54AF86166954D8CA6A19B2,37,1645623149951
+D:/github/odin_study/Luban/Cfg_Data/datas_tbskillcfg.bytes,7B6BA44D70785353874D1AC4D905A1,39,1645620559804
+D:/github/odin_study/Luban/Editor_JsonCode/BuffCfg.cs,2A4E1C6EC2F33B7C2FE5FFE3A49B5428,2226,1645623410185
+D:/github/odin_study/Luban/Editor_JsonCode/SkillCfg.cs,3B3774ED49FC7D9DCF4FE255A3095E,3048,1645623410185
+D:/github/odin_study/Luban/Excel2JsonTemplate/Datas/__beans__.xlsx,56D9FA5622FE88A91691DB2269131F7,9645,1645623322768
+D:/github/odin_study/Luban/Excel2JsonTemplate/Datas/__enums__.xlsx,C8D1D8FF90CEB499E116641E7E68E670,9313,1645620559806
+D:/github/odin_study/Luban/Excel2JsonTemplate/Datas/__tables__.xlsx,8412578560BF6F878D925A3BB94DF8E4,9550,1645623396302
+D:/github/odin_study/Luban/Json2BinTemplate/Datas/__beans__.xlsx,115AFE39382E4BA01745FA8C6098DC,9633,1645622598251
+D:/github/odin_study/Luban/Json2BinTemplate/Datas/__enums__.xlsx,C8D1D8FF90CEB499E116641E7E68E670,9313,1645620559810
+D:/github/odin_study/Luban/Json2BinTemplate/Datas/__tables__.xlsx,19329743FF84FBB565EABE2D631024,9578,1645622787553
+D:/github/odin_study/Luban/Json2BinTemplate/Datas/buffcfgs/1.json,CEB69B1E2D1771812D4CE397EE69A570,43,1645623139473
+D:/github/odin_study/Luban/Json2BinTemplate/Datas/buffcfgs/2.json,3BF9CC47A4E6AEFEFDB31931FE467F1,43,1645623135775
+D:/github/odin_study/Luban/Json2BinTemplate/Datas/buffcfgs/3.json,A2E31F374DF3A75084F1ACC977E3E4,43,1645623132699
+D:/github/odin_study/Luban/Json2BinTemplate/Datas/buffcfgs/4.json,DBF679F8A4DEB666EAB1A6F8FE7EBCFB,43,1645623129209
+D:/github/odin_study/Luban/Json2BinTemplate/Datas/datas/1.json,3D74D4BB967575359B34DAC896092E5,63,1645620559810
+D:/github/odin_study/Luban/Json2BinTemplate/Datas/datas/2.json,CA4DFBC61936503DA92F7ABE10688188,60,1645620559811
+D:/github/odin_study/Luban/Json2BinTemplate/Datas/datas/3.json,D3227888D2C0DEBC36378A29966B1364,60,1645620559811

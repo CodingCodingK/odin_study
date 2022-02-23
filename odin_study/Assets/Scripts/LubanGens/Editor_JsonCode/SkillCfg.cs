@@ -92,13 +92,16 @@ public sealed partial class SkillCfg :  Bright.Config.EditorBeanBase
         _obj.SaveJson((SimpleJSON.JSONObject)_json);
     }
 
-    [ShowInInspector]
+    [ShowInInspector][BoxGroup("常规")]
     public int id { get; set; }
-    [ShowInInspector]
+
+    [ShowInInspector][BoxGroup("常规")]
     public string name { get; set; }
+
     [ShowInInspector]
     public long spellTime { get; set; }
-    [ShowInInspector]
+
+    [ShowInInspector][TableList]
     public System.Collections.Generic.List<int> buffList { get; set; }
 
 }

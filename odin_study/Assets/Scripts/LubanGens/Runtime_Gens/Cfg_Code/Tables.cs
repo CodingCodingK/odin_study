@@ -13,21 +13,26 @@ namespace cfg
    
 public partial class Tables
 {
+    public Datas.TbBuffCfg TbBuffCfg {get; }
     public Datas.TbSkillCfg TbSkillCfg {get; }
 
     public Tables(System.Func<string, ByteBuf> loader)
     {
         var tables = new System.Collections.Generic.Dictionary<string, object>();
+        TbBuffCfg = new Datas.TbBuffCfg(loader("datas_tbbuffcfg")); 
+        tables.Add("Datas.TbBuffCfg", TbBuffCfg);
         TbSkillCfg = new Datas.TbSkillCfg(loader("datas_tbskillcfg")); 
         tables.Add("Datas.TbSkillCfg", TbSkillCfg);
 
         PostInit();
+        TbBuffCfg.Resolve(tables); 
         TbSkillCfg.Resolve(tables); 
         PostResolve();
     }
 
     public void TranslateText(System.Func<string, string, string> translator)
     {
+        TbBuffCfg.TranslateText(translator); 
         TbSkillCfg.TranslateText(translator); 
     }
     

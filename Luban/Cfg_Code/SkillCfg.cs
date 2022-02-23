@@ -33,12 +33,14 @@ public sealed partial class SkillCfg :  Bright.Config.BeanBase
     public string name { get; private set; }
     public long spellTime { get; private set; }
     public System.Collections.Generic.List<int> buffList { get; private set; }
+    public System.Collections.Generic.List<BuffCfg> buffList_Ref { get; private set; }
 
     public const int __ID__ = -2087897997;
     public override int GetTypeId() => __ID__;
 
     public  void Resolve(Dictionary<string, object> _tables)
     {
+        { Datas.TbBuffCfg __table = (Datas.TbBuffCfg)_tables["Datas.TbBuffCfg"]; this.buffList_Ref = new System.Collections.Generic.List<BuffCfg>(); foreach(var __e in buffList) { this.buffList_Ref.Add(__table.GetOrDefault(__e)); } }
         PostResolve();
     }
 
