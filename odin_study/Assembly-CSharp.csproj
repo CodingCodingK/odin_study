@@ -50,47 +50,84 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\LubanGens\Runtime_Gens\Cfg_Code\BuffCfg.cs" />
      <Compile Include="Assets\Scripts\Show_EditorExtensionBasedOnOdin.cs" />
+     <Compile Include="Assets\xNode\Examples\MathGraph\Nodes\DisplayValue.cs" />
+     <Compile Include="Assets\xNode\Examples\MathGraph\Nodes\Vector.cs" />
      <Compile Include="Assets\Scripts\ScriptableWizardButton.cs" />
      <Compile Include="Assets\Scripts\Show.cs" />
+     <Compile Include="Assets\xNode\Examples\StateMachine\Nodes\StateNode.cs" />
+     <Compile Include="Assets\xNode\Scripts\NodeDataCache.cs" />
+     <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIDisplayValue.cs" />
+     <Compile Include="Assets\Examples\FloatCalculation\DisplayNode.cs" />
+     <Compile Include="Assets\Examples\FloatCalculation\CalcNode.cs" />
      <Compile Include="Assets\Scripts\LubanGens\Runtime_Gens\Cfg_Code\SkillCfg.cs" />
+     <Compile Include="Assets\Examples\FloatCalculation\InputNode.cs" />
+     <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\Connection.cs" />
      <Compile Include="Assets\Scripts\LubanEditor\SimpleLubanEditorWindow.cs" />
-     <Compile Include="Assets\Scripts\MySciptObj.cs" />
-     <Compile Include="Assets\Scripts\LubanGens\Editor_JsonCode\SkillCfg.cs" />
-     <Compile Include="Assets\Scripts\LubanGens\Runtime_Gens\Cfg_Code\Tables.cs" />
-     <Compile Include="Assets\Scripts\Show_EditorExtension.cs" />
-     <Compile Include="Assets\Scripts\LubanGens\Runtime_Gens\Cfg_Code\Datas\TbSkillCfg.cs" />
-     <Compile Include="Assets\Scripts\LubanEditor\Test.cs" />
-     <Compile Include="Assets\Scripts\MyEditorWnd.cs" />
-     <Compile Include="Assets\Scripts\LubanGens\Runtime_Gens\Cfg_Code\BuffCfg.cs" />
+     <Compile Include="Assets\Examples\FloatCalculation\FloatCalculation.cs" />
+     <Compile Include="Assets\xNode\Scripts\Node.cs" />
+     <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\UGUIContextMenu.cs" />
+     <Compile Include="Assets\xNode\Examples\MathGraph\MathGraph.cs" />
      <Compile Include="Assets\Scripts\LubanGens\Runtime_Gens\Cfg_Code\Datas\TbBuffCfg.cs" />
+     <Compile Include="Assets\Scripts\MySciptObj.cs" />
+     <Compile Include="Assets\Examples\Nodes\AllAroundNode.cs" />
+     <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIVector.cs" />
+     <Compile Include="Assets\Examples\Nodes\ResizingNode.cs" />
+     <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIMathNode.cs" />
+     <Compile Include="Assets\xNode\Examples\StateMachine\StateGraph.cs" />
+     <Compile Include="Assets\Scripts\LubanGens\Editor_JsonCode\SkillCfg.cs" />
+     <Compile Include="Assets\Examples\GraphCanvas\GraphCanvasType.cs" />
+     <Compile Include="Assets\Scripts\LubanGens\Runtime_Gens\Cfg_Code\Tables.cs" />
+     <Compile Include="Assets\xNode\Scripts\NodePort.cs" />
+     <Compile Include="Assets\Examples\GraphCanvas\GraphTraversal.cs" />
+     <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeMathGraph.cs" />
+     <Compile Include="Assets\Examples\GraphCanvas\RootGraphNode.cs" />
+     <Compile Include="Assets\Scripts\Show_EditorExtension.cs" />
+     <Compile Include="Assets\xNode\Examples\MathGraph\Nodes\MathNode.cs" />
+     <Compile Include="Assets\Examples\Runtime\RTCanvasCalculator.cs" />
+     <Compile Include="Assets\Examples\Runtime\RTNodeEditor.cs" />
+     <Compile Include="Assets\Scripts\LubanGens\Runtime_Gens\Cfg_Code\Datas\TbSkillCfg.cs" />
+     <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\UGUITooltip.cs" />
      <Compile Include="Assets\Scripts\LubanGens\Editor_JsonCode\BuffCfg.cs" />
+     <Compile Include="Assets\Examples\Nodes\ExampleNode.cs" />
+     <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\UGUIPort.cs" />
+     <Compile Include="Assets\Examples\Nodes\FlowNode.cs" />
+     <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\NodeDrag.cs" />
+     <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIMathBaseNode.cs" />
+     <Compile Include="Assets\Examples\FrameworkExtends\ExtendedRTNodeEditor.cs" />
+     <Compile Include="Assets\Scripts\LubanEditor\Test.cs" />
+     <Compile Include="Assets\xNode\Scripts\Attributes\NodeEnum.cs" />
+     <Compile Include="Assets\Scripts\MyEditorWnd.cs" />
+     <Compile Include="Assets\Scripts\xNodeTest\Nodes\MyNode.cs" />
+     <Compile Include="Assets\xNode\Scripts\NodeGraph.cs" />
+     <Compile Include="Assets\Scripts\xNodeTest\MyGraph.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -282,22 +319,22 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.OdinInspector.Attributes">
- <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.OdinInspector.Editor">
- <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Serialization.Config">
- <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Serialization">
- <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Utilities">
- <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Utilities.Editor">
- <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+ <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -654,9 +691,25 @@
       <Project>{ac4a6795-fcdd-0f85-0243-aed309e03f9b}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Seneral.NodeEditorFramework.Runtime.csproj">
+      <Project>{30e68471-4fce-e92d-54e0-8d663432509a}</Project>
+      <Name>Seneral.NodeEditorFramework.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
       <Project>{6bcfb322-f182-d580-755b-bdc1d7fc630d}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Seneral.UndoPro.Runtime.csproj">
+      <Project>{2bdbade0-8223-cf22-66e4-f121a89c82f6}</Project>
+      <Name>Seneral.UndoPro.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="Seneral.NodeEditorFramework.Standard.csproj">
+      <Project>{aab70495-2927-117b-29d3-bd3a8811a861}</Project>
+      <Name>Seneral.NodeEditorFramework.Standard</Name>
+    </ProjectReference>
+    <ProjectReference Include="Seneral.NodeEditorFramework.Editor.csproj">
+      <Project>{f3aab5ff-de76-86d4-aaed-b2365954ae98}</Project>
+      <Name>Seneral.NodeEditorFramework.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
