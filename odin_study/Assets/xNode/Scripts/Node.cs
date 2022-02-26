@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace XNode {
@@ -197,6 +198,16 @@ namespace XNode {
             NodePort port = GetPort(fieldName);
             if (port == null || port.direction != NodePort.IO.Output) return null;
             else return port;
+        }
+
+        public List<string> GetPortsKeys()
+        {
+            return ports.Keys.ToList();
+        }
+        
+        public List<NodePort> GetPortsVals()
+        {
+            return ports.Values.ToList();
         }
 
         /// <summary> Returns input port which matches fieldName </summary>

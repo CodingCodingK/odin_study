@@ -96,38 +96,39 @@
      <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\NodeDrag.cs" />
      <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIMathBaseNode.cs" />
      <Compile Include="Assets\Examples\FrameworkExtends\ExtendedRTNodeEditor.cs" />
+     <Compile Include="Assets\Scripts\xNodeTest\Graph\MyGraph.cs" />
      <Compile Include="Assets\Scripts\LubanEditor\Test.cs" />
      <Compile Include="Assets\xNode\Scripts\Attributes\NodeEnum.cs" />
      <Compile Include="Assets\Scripts\MyEditorWnd.cs" />
      <Compile Include="Assets\Scripts\xNodeTest\Nodes\MyNode.cs" />
      <Compile Include="Assets\xNode\Scripts\NodeGraph.cs" />
-     <Compile Include="Assets\Scripts\xNodeTest\MyGraph.cs" />
+     <Compile Include="Assets\Scripts\xNodeTest\Nodes\MySubNode.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>E:/My Github/odin_study/odin_study/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -319,22 +320,22 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.OdinInspector.Attributes">
- <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.OdinInspector.Editor">
- <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Serialization.Config">
- <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Serialization">
- <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Utilities">
- <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Utilities.Editor">
- <HintPath>E:/My Github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+ <HintPath>D:/github/odin_study/odin_study/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
